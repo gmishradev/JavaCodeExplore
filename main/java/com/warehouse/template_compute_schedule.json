@@ -1,0 +1,56 @@
+{
+  "index_patterns": [
+    "custom_index-*"
+  ],
+  "template": {
+    "aliases": {
+      "custom-index-search": {}
+    },
+    "mappings": {
+      "_source": {
+        "enabled": true
+      },
+      "date_detection": false,
+      "dynamic": "strict",
+      "properties": {
+        "be_id": {
+          "type": "keyword"
+        },
+        "acct_id": {
+          "type": "keyword"
+        },
+        "category": {
+          "type": "keyword"
+        },
+        "status_date": {
+          "type": "date"
+        },
+        "compute_name": {
+          "type": "keyword"
+        },
+        "day": {
+          "type": "long"
+        },
+        "day_word": {
+          "type": "keyword"
+        },
+        "start_time": {
+          "type": "date",
+          "format": "HH:mm"
+        },
+        "end_time": {
+          "type": "date",
+          "format": "HH:mm"
+        },
+        "size": {
+          "type": "keyword"
+        }
+      }
+    },
+    "settings": {
+      "number_of_replicas": 0,
+      "number_of_shards": 1
+    }
+  },
+  "version": 1
+}
