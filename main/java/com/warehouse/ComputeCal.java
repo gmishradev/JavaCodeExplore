@@ -1,6 +1,5 @@
+/*
 package com.warehouse;
-
-import com.unraveldata.platform.nucleus.LocalSimpleDateFormat;
 
 import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
@@ -45,9 +44,11 @@ public class ComputeCal {
     }
 
     public static void main(String[] args){
-       /* String time = SDF_ISO_UTC.instance().format(new Date(Duration.ofHours(1).toMillis()));
+       */
+/* String time = SDF_ISO_UTC.instance().format(new Date(Duration.ofHours(1).toMillis()));
         System.out.println(time);
-        System.out.println(formatHour(1));*/
+        System.out.println(formatHour(1));*//*
+
 
         getDayAndHour("2024-06-13T01:00:00.000Z");
         // Get the current date and time in UTC
@@ -74,3 +75,4 @@ public class ComputeCal {
 
 
 }
+*/
